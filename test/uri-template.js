@@ -109,7 +109,8 @@ describe('URI Template Handler', () => {
 
       it('returns the correct URI', () => {
         const hrefForResource = buildUriTemplate(basePath, href, [], queryParams);
-        expect(hrefForResource).to.equal('/my-api/pet/{unique%2did}{?tag%2dnames%5B%5D}');
+        // expect(hrefForResource).to.equal('/my-api/pet/{unique%2did}{?tag%2dnames%5B%5D}');
+        expect(hrefForResource).to.equal('/my-api/pet/{unique%2did}{?tag-names[]}');
       });
     });
 
