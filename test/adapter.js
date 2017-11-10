@@ -9,7 +9,7 @@
 import fs from 'fs';
 import path from 'path';
 import glob from 'glob';
-import fury from 'dmg-fury';
+import fury from 'adsk-fury';
 import swaggerZoo from 'swagger-zoo';
 import { expect } from 'chai';
 import adapter, { detect } from '../src/adapter';

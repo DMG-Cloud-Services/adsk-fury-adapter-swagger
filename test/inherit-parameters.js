@@ -3,7 +3,7 @@
  * Tests for Swagger adapter.
  */
 
-import fury from 'dmg-fury';
+import fury from 'adsk-fury';
 import { expect } from 'chai';
 import adapter from '../src/adapter';
 

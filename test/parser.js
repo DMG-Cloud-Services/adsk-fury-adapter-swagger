@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import fury from 'dmg-fury';
+import fury from 'adsk-fury';
 import Parser from '../src/parser';
 
 describe('Parser', () => {
